@@ -1,0 +1,43 @@
+<div id="Mainpage" class="Mainpage">
+    <header class="header" id="header">
+     <div class="mainmenu">
+        <div class="logo"><img src="logo.png" width="5%" height="25%"></div>
+        <ul id="menu">              
+            <li class="li"><a href="https://www.audi.com/en.html">Company</a></li>
+            <li class="li"><a href="#">Innovations</a></li>
+            <li class="li"><a href="#">Models</a></li>
+            <li class="li"><a href="#">Brand</a></li>
+            <li class="li"><a href="#">Careers</a></li>
+        </ul>
+       
+     </div>
+    </header>
+    <img class="m" src="images/m.avif" height="300px" width="100%">
+    <h4>Welcome to the Audi Report 2022, the combined annual and sustainability report of 
+        AUDI AG.</h4>
+     
+</div>
+
+
+
+#menu{
+  list-style-type: none;
+  display: flex;
+  margin-left: auto;
+  margin-right: auto;
+  justify-content: space-evenly;
+  text-decoration: none;
+}
+.lg{
+  display: flex;
+  margin-left:auto ;
+  margin-right: auto;
+}
+ul{
+  text-decoration: none;
+}
+
+
+li> a {
+    text-decoration: none;
+    color: black;
